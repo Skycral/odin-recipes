@@ -2,12 +2,11 @@ body {
   background-color: #fefffada;
   text-align: center;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
   font-size: 3rem;
 }
 
@@ -30,10 +29,12 @@ figure.item {
   /* To horizontally center images and caption */
   text-align: center;
   /* The width of the container also implies margin around the images. */
+  border: 1px solid black;
 }
 
 .caption {
   display: block;
+  margin: 5px 0;
 }
 
 a:link { 
